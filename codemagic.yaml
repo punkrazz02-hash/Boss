@@ -13,9 +13,6 @@ workflows:
         - pattern: main
           include: true
     scripts:
-      - name: Set up local.properties
-        script: |
-          echo "flutter.sdk=$HOME/programs/flutter" > android/local.properties
       - name: Get Flutter packages
         script: |
           flutter pub get
@@ -28,3 +25,4 @@ workflows:
       email:
         recipients:
           - your-email@example.com
+          

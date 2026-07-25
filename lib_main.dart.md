@@ -1,9 +1,9 @@
 ---
 created: 2026-07-25T17:02:55+05:45
-modified: 2026-07-25T17:04:30+05:45
+modified: 2026-07-25T17:19:25+05:45
 ---
 
-# lib/main. dart
+# lib/main.dart
 
 import 'package:flutter/material.dart';
 

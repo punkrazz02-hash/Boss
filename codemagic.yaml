@@ -15,14 +15,14 @@ workflows:
     scripts:
       - name: Get Flutter packages
         script: |
-          cd YOUR_FOLDER_NAME
+          cd Boss
           flutter pub get
       - name: Build APK
         script: |
-          cd YOUR_FOLDER_NAME
+          cd Boss
           flutter build apk --release
     artifacts:
-      - YOUR_FOLDER_NAME/build/app/outputs/flutter-apk/app-release.apk
+      - Boss/build/app/outputs/flutter-apk/app-release.apk
     publishing:
       email:
         recipients:
